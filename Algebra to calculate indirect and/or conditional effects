@@ -1,0 +1,28 @@
+Y = b0 + b1M + c1'X + c2'W + c3'XW
+M = a0 + a1X + a2W + a3XW
+
+
+Hence... substituting in equation for M
+
+Y = b0 + b1(a0 + a1X + a2W + a3XW) + c1'X + c2'W + c3'XW
+
+
+Hence... multiplying out brackets
+
+Y = b0 + a0b1 + a1b1X + a2b1W + a3b1XW + c1'X + c2'W + c3'XW
+
+
+Hence... grouping terms into form Y = a + bX
+
+Y = (b0 + a0b1 + a2b1W + c2'W) + (a1b1 + a3b1W + c1' + c3'W)X
+
+
+Hence...
+
+One indirect effect(s) of X on Y, conditional on W:
+
+a1b1 + a3b1W = (a1 + a3W)b1
+
+One direct effect of X on Y, conditional on W:
+
+c1' + c3'W
